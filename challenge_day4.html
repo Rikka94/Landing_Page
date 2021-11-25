@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Virtual Healthcare</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+            }
+            div#container{
+                width: 1250px;
+                height: 100%;
+                border-width: 2px;
+                border-color: black;
+                border-style: solid;
+                margin: 0 auto;               
+            }
+            div#topBar{
+                width: inherit;
+                height: 140px;
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;                
+            }
+            div#topBar p{
+                margin-right: 500px;
+            }
+            div#userId{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: green;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;              
+            }
+            div#userId p{
+                color: white;
+                font-size: 20px;
+                margin-left: 500px;  
+            }
+            div#topBarList ul{
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            div#topBarList li{
+                margin: 0 10px;
+                font-weight: bold;
+            }
+            div#emptyBox{
+                width: inherit;
+                height: 100px;
+            }
+            div#contentOne{
+                width: inherit;
+                height: 650px;
+                /* background-color: grey; */
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            div#contentOneText{
+                width: 50%;
+                height: 650px;
+                /* background-color: red; */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            div#contentOneText h1{
+                font-size: 52px;
+                margin-top: -100px;
+            }
+            div#contentOneText p{
+                font-size: 22px;
+                color: grey;
+                margin-top: 25px;
+            }
+            div#contentOneButton{
+                border-radius: 30px;
+                margin-top: 25px;
+                margin-right: 440px;
+            }
+            div#contentOneImg{
+                width: 50%;
+                height: 650px;
+                /* background-color: blue; */
+                background-image: url("images/illustration.png");
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .button {
+                background-color: green; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 30px;
+                }
+            div#ourServices{
+                width: inherit;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="topBar">
+                <div id="userId">
+                    <p><strong>T</strong></p>
+                </div>
+                <p>Trafalgar</p>
+                <div id="topBarList">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Find a doctor</li>
+                        <li>Apps</li>
+                        <li>Testimonials</li>
+                        <li>About Us</li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+            <div id="emptyBox"></div>
+            <!-- topBar ends here -->
+            <div id="contentOne">
+                <div id="contentOneText">
+                    <h1>Virtual healthcare for you</h1>
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                    <div id="contentOneButton">
+                        <button type="submit" class="button">Well hello there</button>
+    
+                    </div>
+                </div>
+                <div id="contentOneImg">
+                </div>
+            <!-- content one ends here    -->
+            </div>
+            <div id="emptyBox"></div>
+            <div id="ourServices">
+                <h1>Our services</h1>
+                <hr style="width:10%">
+                <p>We provide to you the best choices for you. Adjust it to your health needs and make sure you undergo treatment with our highly qualified doctors you can consult with us which type of services is suitable for your health</p>
+            </div>
+
+        </div>
+    </body>
+</html>
