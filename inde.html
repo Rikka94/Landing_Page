@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexing</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="font-awesome.css"/>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            div#container{
+                width: 900px;
+                height: 600px;
+                background-color: grey;
+                border-width: 2px;
+                border-color: black;
+                border-style: solid;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+            }
+            header{
+                width: 300px;
+                height: 600px;
+                background-color: greenyellow;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 0;
+                box-sizing: border-box;
+            }
+            section{
+                width: 600px;
+                height: 600px;
+                background-color: orchid;
+                
+            }
+            ul{
+                list-style-type: none;
+            }
+            ul#social{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            ul#social li{
+                margin: 0 10px;
+            }
+            i.fa-facebook{
+                color: blue;
+            }
+            i.fa-twitter{
+                color: lightskyblue;
+            }
+            i.fa-youtube{
+                color: red;
+            }
+            ul#menu li{
+                margin: 10px 0;
+            }
+            i.fa{
+                width: 30px;
+                margin-right: 20px;
+            }
+            div#products{
+                width: inherit;
+                height: 160px;
+                /* background-color: midnightblue; */
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            div.items{
+                width: 150px;
+                height: 150px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Logo Here!</h1>
+                <ul id="menu">
+                    <li><i class="fas fa-home"></i>Home</li>
+                    <li><i class="fas fa-address-card"></i>About</li>
+                    <li><i class="fas fa-address-book"></i>Contact</li>
+                </ul>
+
+                <ul id="social">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                </ul>
+            </header>
+            <section>
+                <div id="products">
+                    <div class="items" >
+                        <img src="images/Frame-1.png" />
+                        <h1>Item Numbah One</h1>
+                    </div>
+                    <div class="items" ></div>
+                    <div class="items" ></div>
+                </div>
+                <div class="items" ></div>
+            </section>
+            
+        </div>
+        <!-- end of container -->
+    </body>
+</html>
