@@ -7,6 +7,7 @@
                 margin: 0;
                 padding: 0;
                 font-family: sans-serif;
+                box-sizing: border-box;
             }
             div#container{
                 width: 1250px;
@@ -118,6 +119,102 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                text-align: center;
+ 
+            }
+            div#ourServices p{
+                margin-top: 20px;
+                font-size: 20px;
+                line-height: 30px;
+                color: grey;
+            }
+            #search{
+                width: 100%;
+                height: 380px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                text-align: left;
+                margin-bottom: -60px;
+            }
+            .searchDoc{
+                width: 300px;
+                height: 270px;
+                border-radius: 20px;
+                box-shadow: 5px 5px 40px lightgray;
+                padding: 20px 20px;   
+                box-sizing: border-box;
+                line-height: 25px;
+            }
+            .searchDoc h5{
+                font-size: 26px;
+                font-weight: bold;
+            }
+            .searchDoc p{
+                font-size: 16px;
+                color: grey;
+                margin-top: 15px;
+            }
+            #leading{
+                width: 100%;
+                height: 400px;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #leadingImg{
+                width: 50%;
+                height: 400px;
+                /* background-image: url(images/illustration.png); */
+                /* border: 2px solid pink; */             
+            }
+            #leadingImg img{
+                width: 100%;
+                height: 100%;
+            }
+            #leadingText{
+                width: 45%;
+                height: 380px;
+                /* border: 2px solid pink; */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                line-height: 30px;
+                padding-right: 100px;
+            }
+            #leadingText h3{
+                font-size: 25px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            #leadingText p{
+                color: grey;
+                font-size: 22px;
+                margin: 30px 0;
+            }
+            #leadingTextTwo{
+                width: 45%;
+                height: 380px;
+                /* border: 2px solid pink; */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                line-height: 30px;
+                margin-left: 100px;
+                padding-right: 50px;
+            }
+            #leadingTextTwo h3{
+                font-size: 25px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            #leadingTextTwo p{
+                color: grey;
+                font-size: 22px;
+                margin: 30px 0;
             }
         </style>
     </head>
@@ -158,10 +255,66 @@
             <div id="emptyBox"></div>
             <div id="ourServices">
                 <h1>Our services</h1>
-                <hr style="width:10%">
+                <br />
+                <hr style="width: 5%; border: 1px solid black;" >
                 <p>We provide to you the best choices for you. Adjust it to your health needs and make sure you undergo treatment with our highly qualified doctors you can consult with us which type of services is suitable for your health</p>
             </div>
+            <div id="emptyBox"></div>
+            <div id="search">
+                <div id="searching" class="searchDoc">
+                    <img src="images/Frame-1.png" />
+                    <h5>Search doctor</h5>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+                <div class="searchDoc">
+                    <img src="images/Frame-1.png" />
+                    <h5>Search doctor</h5>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+                <div class="searchDoc">
+                    <img src="images/Frame-1.png" />
+                    <h5>Search doctor</h5>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+            </div>
+            <div id="search">
+                <div id="searching" class="searchDoc">
+                    <img src="images/Frame-1.png" />
+                    <h5>Search doctor</h5>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+                <div class="searchDoc">
+                    <img src="images/Frame-1.png" />
+                    <h5>Search doctor</h5>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+                <div class="searchDoc">
+                    <img src="images/Frame-1.png" />
+                    <h5>Search doctor</h5>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+            </div>
+            <div id="emptyBox"></div><div id="emptyBox"></div>
+            <div id="leading">
+                <div id="leadingImg"> <img src="images/section-1.png" /></div>
+                <div id="leadingText">
+                    <h3>Leading healthcare provides</h3>
+                    <hr style="width: 15%; border: 1px solid black;" />
+                    <p>Trafalgar provides progressive, and affordable healthcare, accesible on mobile and online for everyone. To us, it's not just work. We take pride in the solution we deliver.</p>
+                </div>
 
+            </div>
+            <div id="emptyBox"></div>
+            <div id="leading">
+                <div id="leadingTextTwo">
+                    <h3>Dowbload our mobile apps</h3>
+                    <hr style="width: 15%; border: 1px solid black;" />
+                    <p>Our dedicated patient engagement app and web portal allow you to acces information instantaneously (no tedious form, long calls, or administrative hassle) and securely.</p>
+                </div>
+                <div id="leadingImg">
+                    <img src="images/section-2.png" />
+                </div>
+            </div>
         </div>
     </body>
 </html>
